@@ -1,4 +1,11 @@
+/**** Mobile First ****/
 #menuPrincipal {
+	margin: 10em 0.2em 0em 0.2em;
+	border-radius: 0em 0em 0.5em 0.5em;
+}
+#menuPrincipal li a:hover {
+    background-color: rgba(0, 0, 0, 0.1 );
+    border-radius: 0.5em;
 }
 
 .fixar {
@@ -6,3 +13,15 @@
 	position:fixed;
 	margin-top: 0px !important;
 }
+
+/**** Desktop ****/
+@media screen and (min-width: 800px) { 
+	#menuPrincipal {
+		border-radius: 0em 0em 2em 2em;
+	}
+	#menuPrincipal li a:hover {
+		border-radius: 1em;
+		box-shadow: 0.2em 0.2em rgba(0, 0, 0, 0.5);
+	}
+}
+

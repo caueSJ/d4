@@ -13,8 +13,7 @@ header{
     border: 0.2em solid green;
     border-radius: 0em 0em 2em 2em; 
     background-color: green;
-}
-
+/* deletar depois */
 .mainmenu ul{
     list-style-type: none;
 }
