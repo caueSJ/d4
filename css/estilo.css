@@ -1,6 +1,6 @@
 /**** Mobile First ****/
 #menuPrincipal {
-	margin: 10em 0.2em 0em 0.2em;
+	margin: 10em 0em 0em 0em;/*temporario - tirar apos cabeçalho*/
 	border-radius: 0em 0em 0.5em 0.5em;
 	font-size: 1em;
 	z-index: 9999;
@@ -21,14 +21,14 @@ span, p{
 h1, h3{
 	font-family: "NotoSans-B", sans-serif;
 }
-
+/* Títulos */
 h1{
 	font-size: 1.8em;
 }
+/* Subtítulos */
 h3{
 	font-size: 1.3em;
 }
-
 
 .fixar {
 	width: 100%;
@@ -47,7 +47,7 @@ h3{
 	}
 }
 
-/* fontes */
+/**** Fontes ****/
 
 @font-face {
 	font-family: "NotoSerif";
