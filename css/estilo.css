@@ -9,13 +9,25 @@
     background-color: rgba(0, 0, 0, 0.1 );
     border-radius: 0.5em;
 }
-span, p { 
-	font-family: NotoSerif;
-	font-size: 1.1em;
-	display: block;
-	
-	}
 
+*{
+	font-family: "NotoSans", sans-serif;
+}
+span, p{ 
+	font-family: "NotoSerif", serif;
+	font-size: 1em;	
+}
+
+h1, h3{
+	font-family: "NotoSans-B", sans-serif;
+}
+
+h1{
+	font-size: 1.8em;
+}
+h3{
+	font-size: 1.3em;
+}
 
 
 .fixar {
@@ -37,9 +49,28 @@ span, p {
 
 /* fontes */
 
-@font-face{
-	font-family: NotoSerif;
-	src: local(NotoSerif-Regular.ttf), url(NotoSerif-Regular.ttf);
-	src: local(NotoSerif-Bold.ttf), url(NotoSerif-Bold.ttf);
-	src: local(NotoSerif-Italic.ttf), url(NotoSerif-Italic.ttf);
+@font-face {
+	font-family: "NotoSerif";
+	src: url("../fonts/NotoSerif-Regular.ttf");
+}
+@font-face {
+	font-family: "NotoSerif-B";
+	src: url("../fonts/NotoSerif-Bold.ttf");
+}
+@font-face {
+	font-family: "NotoSerif-I";
+	src: url("../fonts/NotoSerif-Italic.ttf");
+}
+
+@font-face {
+	font-family: "NotoSans";
+	src: url("../fonts/NotoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "NotoSans-B";
+	src: url("../fonts/NotoSans-Bold.ttf");
+}
+@font-face {
+	font-family: "NotoSans-I";
+	src: url("../fonts/NotoSans-Italic.ttf");
 }
