@@ -37,14 +37,17 @@ li a:hover {
 .mainbody{
     margin: 1em 1.5em;
     height: 20em;
-    border: 0.2em solid green;
+    border: 1em solid green;
     border-radius: 1em 1em 1em 1em; 
     
 }
 
 footer{
     height: 8em;
-    border: 0.2em solid green;
+	z-index: 999;
+	float: bottom;	
+	
+    border: 0.2em solid;
     border-radius: 2em 2em 0em 0em; 
     background-color: green;
 }

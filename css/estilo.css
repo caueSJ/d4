@@ -1,15 +1,46 @@
 /**** Mobile First ****/
 #menuPrincipal {
-	margin: 10em 0em 0em 0em;/*temporario - tirar apos cabeçalho*/
 	border-radius: 0em 0em 0.5em 0.5em;
-	font-size: 1em;
 	z-index: 999;
+	border: none;
+	background-color: #54BE62;	
+	box-shadow: 0em -0.4em 0.2em 0.1em #26B26A inset;
 }
-#menuPrincipal li a:hover {
-    background-color: rgba(0, 0, 0, 0.1 );
-    border-radius: 0.5em;
+body {
+	box-shadow: 0em 0em 3em 0.1em #2A3736 inset;
+	background-color: #F7F7F7;
 }
 
+#menuPrincipal a {
+	color: #F7F7F7;
+}
+#menuPrincipal li a:hover {
+    border-radius: 0.5em;
+	box-shadow: 0em 0em 0.8em 0.1em #2A3736 inset;
+}
+
+.fixar {
+	width: 100%;
+	position:fixed;
+	margin-top: -8em !important;
+}
+
+#rodape { 
+	height: 8em;
+	padding: 1em;
+	border-radius: 0.5em 0.5em 0em 0em;
+	border: 0.1em solid #e7e7e7;
+	border: none;
+	box-shadow: 0em 0.5em 0.2em 0.1em #26B26A inset;
+	background-color: #54BE62;
+}
+#cabecalho {
+	height: 8em;
+	border: 0.1em solid #e7e7e7;
+	border: none;
+	box-shadow: 0em 0.4em 0.2em 0.1em #26B26A inset;
+	background-color: #54BE62;
+}
 *{
 	font-family: "NotoSans", sans-serif;
 }
@@ -18,7 +49,7 @@ span, p{
 	font-size: 1em;	
 }
 
-h1, h3{
+h1, h3, a{
 	font-family: "NotoSans-B", sans-serif;
 }
 /* Títulos */
@@ -30,12 +61,6 @@ h3{
 	font-size: 1.3em;
 }
 
-.fixar {
-	width: 100%;
-	position:fixed;
-	margin-top: 0px !important;
-}
-
 /**** Desktop ****/
 @media screen and (min-width: 800px) { 
 	#menuPrincipal {
@@ -43,11 +68,14 @@ h3{
 	}
 	#menuPrincipal li a:hover {
 		border-radius: 1em;
-		box-shadow: 0.2em 0.2em rgba(0, 0, 0, 0.5);
+	}
+	#rodape {
+		border-radius: 2em 2em 0em 0em;
 	}
 }
 
 .quadro-conteudo {
+	background-color: rgb(230, 230, 230);
 	border: solid lightgray 1px;
 	border-radius: 1em;
 	margin: 1em;
