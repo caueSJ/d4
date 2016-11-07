@@ -139,3 +139,34 @@ h3{
 	font-family: "NotoSans-I";
 	src: url("../fonts/NotoSans-Italic.ttf");
 }
+
+
+/* Owner: http://ianlunn.github.io/Hover/ */
+.hvr-curl-top-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+.hvr-curl-top-right:before {
+  pointer-events: none;
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  top: 0;
+  right: 0;
+  background: #54BE62;
+  /* IE9 */
+  background: linear-gradient(225deg, #54BE62 45%, #26B26A 50%, #26B26A 56%, #54BE62 80%);
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+}
+.hvr-curl-top-right:hover:before, .hvr-curl-top-right:focus:before, .hvr-curl-top-right:active:before {
+  width: 20px;
+  height: 18px;
