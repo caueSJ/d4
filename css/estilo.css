@@ -3,19 +3,37 @@
 	border-radius: 0em 0em 0.5em 0.5em;
 	z-index: 999;
 	border: none;
-	background-color: #54BE62;	
-	box-shadow: 0em -0.4em 0.2em 0.2em #26B26A inset;
+	background-color: #52d463;	
+	box-shadow: 0em 0.4em 0.2em 0.2em #26b25e;
 }
+
+#botaoMenuPrincipal:hover {
+	background-color: #F7F7F7;
+}
+
+#botaoMenuPrincipal {
+	border-color: #F7F7F7;
+}
+
+#botaoMenuPrincipal .fa-bars {
+	color: #F7F7F7;
+	font-size: 1.5em;
+}
+
+#botaoMenuPrincipal:hover .fa-bars {
+	color: #52d463;
+	font-size: 1.5em;
+}
+
 body {
-	box-shadow: 0em 0em 10em 0.1em #26B26A inset;
 	background-color: #F7F7F7;
 }
 #cabecalho {
 	height: 8em;
 	border: 0.1em solid #e7e7e7;
 	border: none;
-	box-shadow: 0em 0.5em 0.4em 0.1em #26B26A inset;
-	background-color: #54BE62;
+	/* box-shadow: 0em 0.5em 0.4em 0.1em #26B26A inset; */
+	background-color: #52d463;
 }
 
 #menuPrincipal a {
@@ -23,7 +41,7 @@ body {
 }
 #menuPrincipal li a:hover {
     border-radius: 0.5em;
-	box-shadow: 0em 0em 0.8em 0.1em #2A3736 inset;
+	box-shadow: 0em 0em 0.8em 0.1em #40a74d inset;
 }
 
 .fixar {
@@ -38,8 +56,8 @@ body {
 	border-radius: 0.5em 0.5em 0em 0em;
 	border: 0.1em solid #e7e7e7;
 	border: none;
-	box-shadow: 0em 0.5em 0.2em 0.2em #26B26A inset;
-	background-color: #54BE62;
+	box-shadow: 0em -0.4em 0.2em 0.2em #26b25e;
+	background-color: #52d463;
 }
 
 *{
@@ -65,13 +83,13 @@ h3{
 /**** Desktop ****/
 @media screen and (min-width: 800px) { 
 	#menuPrincipal {
-		border-radius: 0em 0em 2em 2em;
+		border-radius: 0em 0em 1.5em 1.5em;
 	}
 	#menuPrincipal li a:hover {
 		border-radius: 1em;
 	}
 	#rodape {
-		border-radius: 2em 2em 0em 0em;
+		border-radius: 1.5em 1.5em 0em 0em;
 	}
 }
 
@@ -160,7 +178,7 @@ h3{
   right: 0;
   background: #54BE62;
   /* IE9 */
-  background: linear-gradient(225deg, #54BE62 45%, #26B26A 50%, #26B26A 56%, #54BE62 80%);
+  background: linear-gradient(225deg, #52d463 45%, #26B26A 50%, #26B26A 56%, #52d463 80%);
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -170,3 +188,6 @@ h3{
 .hvr-curl-top-right:hover:before, .hvr-curl-top-right:focus:before, .hvr-curl-top-right:active:before {
   width: 20px;
   height: 18px;
+
+ }
+ /* Fim */
