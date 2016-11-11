@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="451.55554mm"
-   height="14.111106mm"
-   viewBox="0 0 1600 49.999982"
+   width="43.368999"
+   height="65.008415"
+   viewBox="0 0 43.369004 65.008417"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
@@ -34,12 +34,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.919596"
-     inkscape:cx="42.419148"
-     inkscape:cy="16.447649"
+     inkscape:zoom="15.839192"
+     inkscape:cx="33.530437"
+     inkscape:cy="13.78611"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      units="px"
      inkscape:object-nodes="true"
      fit-margin-top="0"
@@ -51,12 +51,12 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:snap-global="false">
+     inkscape:snap-global="true">
     <inkscape:grid
        type="xygrid"
        id="grid4136"
-       originx="-110"
-       originy="-725.00004" />
+       originx="-188.91639"
+       originy="-724.99581" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -74,13 +74,13 @@
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-110,-277.3622)">
+     transform="translate(-188.91639,-262.358)">
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#c2e75f;stroke-width:1.93649125;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 147.60088,277.36223 0,49.99998"
+       style="fill:none;fill-rule:evenodd;stroke:#c2e75f;stroke-width:1.36900008;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 231.60089,262.3622 0,65.00001"
        id="path4142"
        inkscape:path-effect="#path-effect4144"
-       inkscape:original-d="m 147.60088,277.36223 0,49.99998"
+       inkscape:original-d="m 231.60089,262.3622 0,65.00001"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
   </g>

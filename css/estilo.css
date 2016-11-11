@@ -121,6 +121,7 @@ h3{
 
 .cabecalho-personalizado-modal {
 	background-image: url("../img/linhadecadernoTopo.svg");
+	background-repeat: no-repeat;
 	color: white;
 	font-family: "NotoSerif";
 	text-align: center;
