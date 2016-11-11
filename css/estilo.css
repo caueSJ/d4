@@ -122,7 +122,7 @@ h3{
 .cabecalho-personalizado-modal {
 	background-color: #26b25e;
 	color: white;
-	font-weight: bold;
+	font-family: "NotoSerif";
 	text-align: center;
 	padding: 0.3em;
 }
@@ -141,36 +141,22 @@ h3{
 	background-image: url("../img/linhacaderno.png");
 	min-height: 40em;
 	padding-left: 4em;
+	padding-top: 3em;
 
 }
 
 /**** Fontes ****/
 
 @font-face {
-	font-family: "NotoSerif";
+	font-family: NotoSerif;
 	src: url("../fonts/NotoSerif-Regular.ttf");
-}
-@font-face {
-	font-family: "NotoSerif-B";
-	src: url("../fonts/NotoSerif-Bold.ttf");
-}
-@font-face {
-	font-family: "NotoSerif-I";
-	src: url("../fonts/NotoSerif-Italic.ttf");
 }
 
 @font-face {
-	font-family: "NotoSans";
+	font-family: NotoSans;
 	src: url("../fonts/NotoSans-Regular.ttf");
 }
-@font-face {
-	font-family: "NotoSans-B";
-	src: url("../fonts/NotoSans-Bold.ttf");
-}
-@font-face {
-	font-family: "NotoSans-I";
-	src: url("../fonts/NotoSans-Italic.ttf");
-}
+
 
 
 /* Owner: http://ianlunn.github.io/Hover/ */
