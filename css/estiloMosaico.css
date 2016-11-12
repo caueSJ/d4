@@ -3,9 +3,8 @@ figure {
     position: relative;
     overflow: hidden;
     margin: 0em 1em;
-    /*background: #2A3736;*/
     text-align: center;
-    cursor: pointer;	
+    cursor: help;	
 }
 
 figcaption {
@@ -47,7 +46,6 @@ figure.effect-bubba img {
 }
 
 figure.effect-bubba:hover img {
-    /*background: ;*/
 	opacity: 0.1;
 }
 
@@ -83,6 +81,7 @@ figure.effect-bubba figcaption::before {
     border-bottom: 1px solid #2A3736;
     -webkit-transform: scale(0,1);
     transform: scale(0,1);
+	
 }
 
 figure.effect-bubba figcaption::after {
@@ -90,9 +89,11 @@ figure.effect-bubba figcaption::after {
     border-left: 1px solid #2A3736;
     -webkit-transform: scale(1,0);
     transform: scale(1,0);
+	background-image: url("../img/linhadecaderno.svg");
 }
 
 figure.effect-bubba h2 {
+	z-index: 30;
     opacity: 0;
     color: #2A3736;
     font-size: 15px;
@@ -106,6 +107,7 @@ figure.effect-bubba h2 {
 }
 
 figure.effect-bubba p {
+	z-index: 60;
     color: #2A3736;
     font-size: 13px;
     font-weight: 500;
@@ -119,7 +121,7 @@ figure.effect-bubba p {
 
 figure.effect-bubba:hover figcaption::before,
 figure.effect-bubba:hover figcaption::after {
-    opacity: 1;
+	opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
