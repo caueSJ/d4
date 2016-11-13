@@ -83,8 +83,8 @@ span, p{
 	font-size: 1em;	
 }
 /* Span modal*/
-#sModal{
-	line-height: 20.75px;
+.modal-body span, .modal-body li, .modal-body p  {
+	line-height: 1.5em;
 }
 
 h1, h3, a{
