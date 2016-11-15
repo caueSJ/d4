@@ -1,4 +1,4 @@
-/**** Mobile First ****/
+*** Mobile First ****/
 body{
 	margin:0em;
 	padding:0em;
@@ -38,14 +38,22 @@ body{
 	font-size: 1.5em;
 }
 
+/*Mudar o link da página atual*/
 mark {
-    background-color: #FFF372;
-    border-radius: 0.2em;
-    padding: 0.2em;
+	color: #384930;
+    background-color: #F7F7F7;
+}
+
+/*Ícones*/
+i.icon {
+	font-size: 1.5em;
+	padding-right: 1em;
 }
 
 body {
 	background-color: #F7F7F7;
+	background-color: rgba(153, 255, 153, 0.2);
+	background-image: url("../img/white-wall.png");
 }
 #cabecalho {
 	height: 8em;
@@ -114,6 +122,7 @@ h3{
 	}
 	#rodape {
 		border-radius: 1.5em 1.5em 0em 0em;
+		text-align: center;
 	}
 	.navbar-brand img{
 		margin-right: 5em;
@@ -183,6 +192,11 @@ h3{
 	src: url("../fonts/NotoSans-Regular.ttf");
 }
 
+@font-face{
+	font-family: Gunny;
+	src: url("../fonts/gunny.ttf");
+}
+
 /* Owner: http://ianlunn.github.io/Hover/ */
 .hvr-curl-top-right {
   display: inline-block;
@@ -213,5 +227,5 @@ h3{
 .hvr-curl-top-right:hover:before, .hvr-curl-top-right:focus:before, .hvr-curl-top-right:active:before {
   width: 20px;
   height: 18px;
- }
- /* Fim */
+}
+ /* Fim 

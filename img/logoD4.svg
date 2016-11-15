@@ -12,9 +12,9 @@
    inkscape:version="0.91 r"
    version="1.1"
    id="svg2"
-   viewBox="0 0 530 397.93556"
-   height="397.93555"
-   width="530"
+   viewBox="0 0 142.50548 112.78953"
+   height="112.78953"
+   width="142.50548"
    sodipodi:docname="logoD4.svg"
    inkscape:export-filename="/home/caue/Área de Trabalho/LogoD41.png"
    inkscape:export-xdpi="108"
@@ -39,9 +39,9 @@
      showgrid="false"
      inkscape:current-layer="g13834"
      inkscape:document-units="px"
-     inkscape:cy="81.484152"
-     inkscape:cx="301.6509"
-     inkscape:zoom="0.70710678"
+     inkscape:cy="-6.0651676"
+     inkscape:cx="56.138334"
+     inkscape:zoom="2"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -56,8 +56,8 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-others="false">
     <inkscape:grid
-       originy="-570.3473"
-       originx="-531.88538"
+       originy="-712.92031"
+       originx="-725.63265"
        spacingy="50.000001"
        spacingx="50"
        id="grid4142"
@@ -173,7 +173,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-531.88539,-84.079371)"
+     transform="translate(-725.63265,-226.65237)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Camada 1">
@@ -185,7 +185,7 @@
          id="g13834">
         <g
            id="g13975"
-           transform="matrix(2.757987,0,0,2.757987,-703.99273,-1312.2412)">
+           transform="matrix(0.6205773,0,0,0.6205773,455.2229,-91.990994)">
           <g
              transform="matrix(1,0,0,0.91007329,0,47.687579)"
              style="fill:#52d463;fill-opacity:1;stroke:none;stroke-opacity:1"

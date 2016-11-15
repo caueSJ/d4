@@ -54,10 +54,12 @@ figure.effect-bubba h3{
 	width: 5em;
 	color: #2A3736;
 	position: absolute;
-	-webkit-transform: rotate(-9deg);
-	transform: rotate(-9deg);
+	-webkit-transform: rotate(-7.7deg);
+	transform: rotate(-7.7deg);
 	top: 20%;
 	left: 30%;
+    font-family: Gunny;
+    font-size: 1.7em;
 }
 figure.effect-bubba:hover h3 {
 	opacity: 0.1;
