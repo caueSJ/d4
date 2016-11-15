@@ -79,20 +79,20 @@ body {
 }
 
 #rodape { 
-	padding: 1em;
+	padding: 0.5em;
 	border-radius: 0.5em 0.5em 0em 0em;
 	border: 0.1em solid #D9D9D9;
 	border: none;
 	box-shadow: 0em -0.4em 0.2em 0.002em #D9D9D9;
 	background-color: #F7F7F7;
-	border-bottom: 1em solid #52d463;
+	text-align: center;
 }
 *{
 	font-family: "NotoSans", sans-serif;
 }
 span, p{ 
 	font-family: "NotoSerif", serif;
-	font-size: 1em;	
+	font-size: 1em;
 }
 /* Span modal*/
 .modal-body span, .modal-body li, .modal-body p  {
@@ -110,26 +110,29 @@ h1{
 h3{
 	font-size: 1.3em;
 }
+small {
+	font-size: 0.8em;
+	color: #F7F7F7;
+}
 
 /**** Desktop ****/
-@media screen and (min-width: 860px) { 
-	#menuPrincipal {
-		border-radius: 0em 0em 1.5em 1.5em;
-		/*padding: 0% 20%;*/
-	}
-	#menuPrincipal li a:hover {
-		border-radius: 1em;
-	}
-	#rodape {
-		border-radius: 1.5em 1.5em 0em 0em;
-		text-align: center;
-	}
-	.navbar-brand img{
-		margin-right: 5em;
-	}
-	.quadro-conteudo {
-		min-height: 44em;
-	}
+
+.linkPersonalizado {
+	text-decoration: none !important;
+	color: #2A3736;
+	display:block;
+}
+.linkPersonalizado:hover {
+    border-radius: 1em;
+	color: #26B26A !important;
+	box-shadow: 0em 0em 0.8em 0.1em #D9D9D9 inset;
+}
+.linkPersonalizado:visited {
+	color: #2A3736;
+}
+.cpr{
+	background-color: #52d463;
+	text-align: center;
 }
 
 .quadro-conteudo {
@@ -144,7 +147,7 @@ h3{
 .quadro-elementos {
 	border: solid #D9D9D9 1px;
 	border-radius: 1em;
-	margin: 0.5em;
+	margin: 0.5em 0em;
 	padding: 0.5em 1em;
 }
 
@@ -176,7 +179,7 @@ h3{
 .corpo-personalizado-modal{
 	background-image: url("../img/linhadecaderno.svg");
 	min-height: 30em;
-	padding-left: 4em;
+	padding-left: 2em;
 	padding-top: 21px;
 }
 
@@ -228,4 +231,27 @@ h3{
   width: 20px;
   height: 18px;
 }
- /* Fim 
+ /* Fim */
+ 
+ @media screen and (min-width: 860px) { 
+	#menuPrincipal {
+		border-radius: 0em 0em 1.5em 1.5em;
+	}
+	#menuPrincipal li a:hover {
+		border-radius: 1em;
+	}
+	#rodape {
+		border-radius: 1.5em 1.5em 0em 0em;
+		text-align: center;
+	}
+	.navbar-brand img{
+		margin-right: 5em;
+	}
+	.quadro-conteudo {
+		min-height: 40em;
+	}
+	.cpr{
+		text-align: right;
+		padding-right: 0.8em;
+	}
+}

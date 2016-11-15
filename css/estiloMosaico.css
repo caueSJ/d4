@@ -50,8 +50,7 @@ figure.effect-bubba:hover img {
 }
 
 figure.effect-bubba h3{
-	height: 5em;
-	width: 5em;
+	width: 4em;
 	color: #2A3736;
 	position: absolute;
 	-webkit-transform: rotate(-7.7deg);
@@ -61,6 +60,7 @@ figure.effect-bubba h3{
     font-family: Gunny;
     font-size: 1.7em;
 }
+
 figure.effect-bubba:hover h3 {
 	opacity: 0.1;
 }
@@ -98,10 +98,12 @@ figure.effect-bubba h2 {
 	z-index: 30;
     opacity: 0;
     color: #2A3736;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 10%;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
     -webkit-transform: translate3d(0,-20px,0);
@@ -111,9 +113,9 @@ figure.effect-bubba h2 {
 figure.effect-bubba p {
 	z-index: 60;
     color: #2A3736;
-    font-size: 13px;
+    font-size: 0.9em;
     font-weight: 500;
-    padding: 20px 2.5em;
+    padding: 1em 2.5em;
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
@@ -133,4 +135,16 @@ figure.effect-bubba:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+}
+@media screen and (min-width: 600px) { 
+	figure.effect-bubba h2{
+		font-size: 1.3em;
+	}
+	figure.effect-bubba h3{
+		width: 4.5em;
+	}
+	
+	figure.effect-bubba p {
+		font-size: 1em;
+	}
 }
