@@ -115,6 +115,10 @@ small {
 	color: #F7F7F7;
 }
 
+hr{
+	border-color: #52d463;
+}
+
 /**** Desktop ****/
 
 .linkPersonalizado {
@@ -164,7 +168,7 @@ small {
 	text-align: center;
 	border-bottom: 0.2em;
 	margin-bottom: 0em;
-	padding-bottom: 0em;
+	padding: 0em 1.5em;;
 }
 .cabecalho-personalizado-modal span {
 	overflow: auto;
@@ -174,15 +178,19 @@ small {
 	color: red;
 	font-weight: bold;
 	font-size: 1.5em;
+	padding-top: 0.5em;
 }
 
 .corpo-personalizado-modal{
 	background-image: url("../img/linhadecaderno.svg");
 	min-height: 30em;
-	padding-left: 2em;
+	padding-left: 3.5em;
 	padding-top: 21px;
 }
-
+.corpo-personalizado-modal ol{
+	padding-left: 2em;
+	margin-bottom: 0em;
+}
 /**** Fontes ****/
 
 @font-face {
