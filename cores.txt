@@ -1,4 +1,0 @@
-Verde vivo menu principal: #52d463
-Hover menu principal: #40a74d
-Verde quase preto: #2A3736
-Verde post-it: #b7e61f
